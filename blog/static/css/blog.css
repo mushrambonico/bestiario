@@ -45,7 +45,10 @@ h1, h2, h3, h4 {
     color: #000000;
 }
 
-.glyphicon glyphicon-plus {
-    position: absolute;
-    top: 20px;
+.btm {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 0;
+    display: inline-block;
 }
