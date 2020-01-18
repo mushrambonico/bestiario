@@ -10,7 +10,17 @@
     </head>
     <body>
         <div class="page-header">
-            <h1><a href="/">BESTIÁRIO</a></h1>
+        <nav class="navbar">
+                  <div class="navbar">
+                    <h1><a href="/">BESTIÁRIO</h1>
+                  </div>
+                  <ul class="navlist">
+                    <li class="li-nav"><a href="#">Home</a></li>
+                    <li class="li-nav"><a href="#">About</a></li>
+                    <li class="li-nav"><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
             {% if user.is_authenticated %}
             <div class='btm'>
               <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
@@ -24,6 +34,11 @@
                 {% endblock %}
                 </div>
             </div>
+        </div>
+        <div class="bottom-margin">
+          <p> Blog criado por Filão</p>
+          <p> Para mais informações visite a aba About</p>
+          <p> Todos os direitos reservados, 2020</p> 
         </div>
     </body>
 </html>

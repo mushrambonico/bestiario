@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #355E82;
+    background-color: #4F2F4F;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -10,8 +10,32 @@
     text-decoration: none;
 }
 
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.li-nav, .li-nav a, .li-nav a:visited {
+    font-size: 16pt;
+    display: inline;
+    padding: 20px 20px 60px 0px;
+    color: #f5f3f3;
+    text-decoration: none;
+  }
+
 .content {
     margin-left: 40px;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
+    color: black;
+}
+
+.comment-border{
+    border-left: 10px solid #dc8920;
+    background-color: #ebe7db;
 }
 
 h1, h2, h3, h4 {
@@ -51,4 +75,11 @@ h1, h2, h3, h4 {
     color: white;
     margin: 0 0 0 0;
     display: inline-block;
+}
+
+.bottom-margin {
+    margin-bottom: auto;
+    background-color: #4F2F4F;
+    color: white;
+    padding: 10px 10px 10px 10px;
 }
